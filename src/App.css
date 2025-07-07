@@ -1,0 +1,18 @@
+/* Hide scrollbar but allow scroll */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+/* Force standard colors for invoice PDF rendering */
+.invoice-pdf * {
+  color: #222 !important;
+  background: #fff !important;
+  border-color: #ccc !important;
+  box-shadow: none !important;
+}
+  
